@@ -16,5 +16,14 @@ while len(my_list) != 8:
 
 print(new_list)
 # create variable from my_list
-new_var = (' ').join(my_list)
-print(new_var)
+new_var2 = (' ').join(my_list)
+
+my_list2 = ["Asif", "Ali", "Aashir", "Maaz"]
+
+new_things = new_var2.split()
+
+while len(my_list2) != 0:
+     item2 = my_list2.pop()
+     new_things.append(item2)
+
+print(new_things)     
